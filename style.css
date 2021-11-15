@@ -147,6 +147,28 @@
     height: 20px;
 }
 .ex-13-top-white{
-    animation: trans 2s linear;
+    animation: trans 2s linear
 }
-@keyframes
+@keyframes trans {
+    0%{left:10%;}
+    20%}{left:100%}
+    40% {top:100%;}    
+    60%{right:100%}    
+    80%{bottom:100%}
+    100%{left:10%}
+    
+}    
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+
