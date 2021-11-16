@@ -134,7 +134,7 @@
     position: absolute;
     top: -10px;
     left: 10%;
-    background: #f5f5f5;
+    background: #ffffff;
     width: 60px;
     height: 20px;
 }
@@ -146,22 +146,32 @@
     width: 60px;
     height: 20px;
 }
+  
+  
 .ex-13-top-white{
-    animation: trans 2s linear
+    animation: moove 3s linear;
 }
-@keyframes trans {
-    0%{left:10%;}
-    20%}{left:100%}
-    40% {top:100%;}    
-    60%{right:100%}    
-    80%{bottom:100%}
-    100%{left:10%}
-    
-}    
+@keyframes moove {
+    0%{}
+}
   
-  
-  
-  
+.ex-13-bottom-white{
+    animation: muve 3s linear;
+}
+
+@keyframes muve {
+    0%{right: 20%;}
+    10%{right: 100%;}
+    20%{bottom:0px}
+    30%{bottom: 100%;}
+    40%{right: 100%;}
+    50%{right: 0;}
+    60%{bottom:100%}
+    70%{bottom:0px}
+    80%{right: 0px;}
+    100%{right: 20%;}
+
+}
   
   
 
